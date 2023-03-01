@@ -6,14 +6,14 @@ const Navigation = () => {
   return (
     <>
       <div className='navigation'>
-        <Link to='/'>
+        <Link className='logo-container' to='/'>
           <Crown className='logo' />
         </Link>
         <div className='nav-links-container'>
           <Link className='nav-link' to='/shop'>
             SHOP
           </Link>
-          <Link className='nav-link' to='/signin'>
+          <Link className='nav-link' to='/authentication'>
             SIGN IN
           </Link>
         </div>

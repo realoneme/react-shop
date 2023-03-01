@@ -8,6 +8,8 @@ import {
   createUserDocumentFromAuth,
 } from '../../utils/firebase/firebase.utils';
 
+import './sign-up-form.style.scss';
+
 const defaultFormFilds = {
   displayName: '',
   email: '',
